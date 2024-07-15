@@ -1,0 +1,64 @@
+/* mulish font cnd */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* default style */
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Shared styles */
+.display_flex {
+    display: flex;
+}
+
+/* nav start */
+.container {
+    width: 90%;
+    margin: 4rem auto;
+    border-radius: 1rem;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.logo {
+    align-items: center;
+    width: 280px;
+}
+
+.logo h3 {
+    font-size: 1.5rem;
+
+}
+
+.logo img {
+    width: 48px;
+    height: 56px;
+    margin-right: 1rem;
+}
+
+.span {
+    color: #FF5400;
+    font-weight: 800;
+}
+
+.nav_options {
+    justify-content: space-evenly;
+    gap: 3rem;
+    color: #424247;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.nav_options p {
+cursor: pointer;
+}
