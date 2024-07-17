@@ -132,7 +132,44 @@ select {
     align-items: center;
     border-radius: 8px;
     gap: 8px;
+    font-weight: 800;
     color: white;
     background-color: #FF5400;
     border: 1px solid #FF5400;
+    cursor: pointer;
+}
+
+
+/* Our Popular Tours */
+.popular_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.text_content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: space-around;
+}
+
+.text_content h3 {
+    font-size: 2.3rem;
+    font-weight: 800;
+
+}
+
+.text_content p,
+.text_content li {
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 24px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+.image {
+    margin-left: auto;
+
 }
